@@ -576,6 +576,10 @@ main {
   box-shadow: var(--shadow-1);
 }
 
+.testimonials-avatar-box img {
+  filter: brightness(0) saturate(100%) invert(79%) sepia(33%) saturate(749%) hue-rotate(343deg) brightness(102%) contrast(101%);
+}
+
 .testimonials-item-title { margin-bottom: 7px; }
 
 .testimonials-text {
@@ -591,7 +595,7 @@ main {
 }
 
 
-/**
+/* *
  * #testimonials-modal
  */
 
